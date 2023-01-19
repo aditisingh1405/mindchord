@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import '../css/Home.css'
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -15,7 +16,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <a href='/survey'><Button className="test-btn">TAKE THE TEST</Button></a>
+                    <Link to='/survey'><Button className="test-btn">TAKE THE TEST</Button></Link>
                 </div>
             </div>
         </div>

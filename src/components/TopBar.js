@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../images/logo.jpg'
 import { faHouse, faAddressCard, faPhone} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 function TopBar() {
   return (
@@ -18,9 +19,9 @@ function TopBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
-                    <Nav.Link href="/mindchord"><div className="navlink"><FontAwesomeIcon icon={faHouse} />&nbsp;&nbsp;Home</div></Nav.Link>
-                    <Nav.Link href="/aboutus"><div className="navlink"><FontAwesomeIcon icon={faAddressCard} />&nbsp;&nbsp;About Us</div></Nav.Link>
-                    <Nav.Link href="/contacts"><div className="navlink"><FontAwesomeIcon icon={faPhone} />&nbsp;&nbsp;Contacts</div></Nav.Link>
+                    <Link to="/" style={{ textDecoration: 'none' }}><div className="navlink"><FontAwesomeIcon icon={faHouse} />&nbsp;&nbsp;Home</div></Link>
+                    <Link to="/aboutus" style={{ textDecoration: 'none' }}><div className="navlink"><FontAwesomeIcon icon={faAddressCard} />&nbsp;&nbsp;About Us</div></Link>
+                    <Link to="/contacts" style={{ textDecoration: 'none' }}><div className="navlink"><FontAwesomeIcon icon={faPhone} />&nbsp;&nbsp;Contacts</div></Link>
                 </Nav>
                 </Navbar.Collapse>
             </div>
