@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Contacts from './components/Contacts';
 import Survey from './components/Survey';
 import Score from './components/Score';
-import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,7 +15,7 @@ function App() {
       <Router>
         <TopBar />
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/mindchord' element={<Home />} />
           <Route exact path='/aboutus' element={<AboutUs />} />
           <Route exact path='/contacts' element={<Contacts />} />
           <Route exact path='/survey' element={<Survey />} />
