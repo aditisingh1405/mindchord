@@ -1,0 +1,44 @@
+.Home {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 93.35vh;
+}
+
+.Home .row {
+    width: 600px;
+    margin-left: 350px;
+    padding: 20px;
+}
+
+.vertical-center {
+    min-height: 93.35%;
+    min-height: 93.35vh;
+    display: flex;
+    align-items: center;
+}
+
+.Home h1 {
+    font-size: 216px!important;
+    font-weight: bold!important;
+}
+
+.Home .container {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Home .border-right {
+    border-right: 3px solid white;
+}
+
+.Home .test-btn {
+    width: 300px!important;
+    font-size: 20px!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    border-radius: 40px!important;
+    padding: 10px 40px!important;
+}
