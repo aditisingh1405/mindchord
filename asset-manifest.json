@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mindchord/static/css/main.f6b538c9.css",
+    "main.css": "/mindchord/static/css/main.0b175ae4.css",
     "main.js": "/mindchord/static/js/main.78814adb.js",
     "static/js/787.ec704a7a.chunk.js": "/mindchord/static/js/787.ec704a7a.chunk.js",
     "static/media/img5.png": "/mindchord/static/media/img5.b874f96be9013164c982.png",
@@ -11,12 +11,12 @@
     "static/media/img6.jpg": "/mindchord/static/media/img6.0c4a7d798b94fb91015e.jpg",
     "static/media/img2.jpg": "/mindchord/static/media/img2.8f030df1ccb99a7263d6.jpg",
     "index.html": "/mindchord/index.html",
-    "main.f6b538c9.css.map": "/mindchord/static/css/main.f6b538c9.css.map",
+    "main.0b175ae4.css.map": "/mindchord/static/css/main.0b175ae4.css.map",
     "main.78814adb.js.map": "/mindchord/static/js/main.78814adb.js.map",
     "787.ec704a7a.chunk.js.map": "/mindchord/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6b538c9.css",
+    "static/css/main.0b175ae4.css",
     "static/js/main.78814adb.js"
   ]
 }
